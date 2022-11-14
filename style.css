@@ -4,6 +4,61 @@ body
   font-family: brandon-grostesque,HelveticaNeue-Light,"Helvetica Neue Light",Helvetica,Arial,"Lucida Grande",sans-serif;
 color: #06283D;
 }
+#title{
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+color:#000000;
+}
+.container-fluid{
+  padding:3% 15%;
+  padding-bottom: 3%;
+}
+h1
+{
+  font-family: "Montserrat-Black";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding:3% 0%;
+}
+.top{
+
+  padding: 16% 0%;
+  text-align: center;
+}
+#intro
+{
+  text-align: center;
+  line-height: 1.5;
+
+}
+.middle-container
+{
+  padding: 5% 25%;
+  text-align: center;
+  position: relative;
+    min-height: 1px;
+
+}
+.nav-link
+{
+  font-weight:bold;
+  color:#000000;
+}
+#skills{
+  padding: 5% 25%;
+  text-align: center;
+}
+#resume1
+{
+  padding: 5% 25%;
+  text-align: center;
+}
+#exp{
+  padding: 5% 25%;
+  text-align: center;
+}
 .h1
 {
   padding-top: 180px;
@@ -52,35 +107,17 @@ top:80px;
   top:15px;
   left:790px;
 }
-.a1:visited{
-  color:black;
-  background-color: transparent;
-  text-decoration: none;
-}
-.a1:hover{
-  color:white;
-  background-color: transparent;
-  text-decoration: none;
-}
-.a1:active
-{
-  color:#1a1c22;
-  background-color: transparent;
-  text-decoration: none;
-}
+
 .header
 {
   background-color: #E7F6F2;
 }
-.middle-container
-{
-  text-align: center;
-  position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    line-height: 1.42857143;
-    padding-right: 15px;
+.consultancy{
+
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
+
 .p11{
   height:90px;
   width:380px;
@@ -99,31 +136,29 @@ top:80px;
   line-height: 2;
 
 }
-.p2
-{
-  height:90px;
-  width:310px;
-  text-align: left;
-  position:relative;
-  left:440px;
-  line-height: 2;
-}
+
 
 hr{
   border-style: dotted;
-  width:6%;
+  width:100%;
   border-top: none;
   border-left: none;
   border-right: none;
+  align:center;
   border-width: thick;
-  border-color: #B4CDE6;
+  border-color: #000000;
+
 }
 .container
 {
-  position: relative;
-  top:300px;
   background-color: #06283D;
 padding:40px;
+
+}
+#footer
+{
+
+  background-color: #06283D;
 }
 .resume{
   float:left;
@@ -131,11 +166,16 @@ padding:40px;
   left:420px;
   bottom:10px;
 }
-.foot{
-  position: relative;
-  left :270px;
+.foot
+{
+  padding: 3% 10%;
+}
+.link{
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 3% 10%;
+  max-width: 600px;
 
-padding-left: 100px;
 }
 .l
 {
@@ -149,12 +189,4 @@ padding-left: 100px;
   position: relative;
   right:350px;
   bottom:-79px;
-}
-.skill{
-  float:right;
-  width:10%;
-  height:10%;
-  position: relative;
-  right:350px;
-
 }
